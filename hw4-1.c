@@ -14,18 +14,16 @@ int main()
         for (c = 2;c<a[i];c++){
             if (a[i]%c == 0){
 
-                printf(" NO ");
+                printf("NO ");
                 break;
             }
         }
         if (c == a[i]){
 
-        printf(" YES ");
+        printf("YES ");
         }
     }
 
     return 0;
 
-
 }
-
